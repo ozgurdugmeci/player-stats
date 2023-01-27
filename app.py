@@ -1,3 +1,4 @@
+import plotly.graph_objects as go
 import streamlit.components.v1 as components
 import streamlit as st
 import requests
@@ -8,6 +9,9 @@ import plotly.express as px
 from streamlit_plotly_events import plotly_events
 
 try:
+ fig = go.Figure()
+ config = {'staticPlot': True}
+
  df_roster=[]
  df_roster=pd.DataFrame(df_roster)
  
@@ -389,7 +393,7 @@ try:
  bol1,bol2,bol3 = st.columns([1,0.4,1])
  
  with bol1:
-  st.write(fig) 
+  st.plotly_chart(fig,config=config) 
  
  with bol3:
   try:
