@@ -407,12 +407,6 @@ try:
  st.subheader('Game Stats') 
  st.dataframe(df_games, 800, 3000)
   
- st.stop() 
- 
- 
- #df_games
- 
- kk[0]['table']['sections'][0]['headings']
 except:
  'An error occured. Check internet connecion and refresh the link.' 
 
