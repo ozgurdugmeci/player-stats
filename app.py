@@ -402,7 +402,7 @@ try:
   except:
    pass 
  
- 
+ df_games=df_games.sort_values(by='Round', ascending=False)
    
  st.subheader('Game Stats') 
  st.dataframe(df_games, 800, 3000)
