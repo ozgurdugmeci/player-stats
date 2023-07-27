@@ -63,7 +63,7 @@ try:
  #df_parca=df_parca.replace('/','//')
  
  
- linko_sezon= 'https://www.euroleaguebasketball.net'+ df_parca + '?season=2021-23'	
+ linko_sezon= 'https://www.euroleaguebasketball.net'+ df_parca + '?season=2023-24'	
   
   
  page = requests.get(linko_sezon)
