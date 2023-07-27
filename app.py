@@ -408,7 +408,8 @@ try:
  st.dataframe(df_games, 800, 3000)
   
 except:
- 'An error occured. Check internet connecion and refresh the link.' 
+ 'New season has not started yet.'
+ #'An error occured. Check internet connecion and refresh the link.' 
 
 
 takip= """
