@@ -87,7 +87,7 @@ try:
  test=box2[0]
  test
  linko_results= 'https://www.euroleaguebasketball.net'+ df_parca + '?season='+ str(box2[0])	
-  
+ linko_results 
  #1
  #klüp bilgilerini al 
  #linko='https://www.euroleaguebasketball.net/euroleague/teams/anadolu-efes-istanbul/roster/ist/?season=2022-23'
