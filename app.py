@@ -118,7 +118,8 @@ try:
  df_roster['namo']= df_roster['firstName']+ ' ' + df_roster['lastName'] + ' - ' + df_roster['pos']
  
  box3= df_roster['namo'].values.tolist()
- box3
+ ss=len(box3)
+ ss
  with col1:
   option3 = st.selectbox(
      'Select the player',
