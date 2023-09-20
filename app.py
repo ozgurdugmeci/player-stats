@@ -114,7 +114,7 @@ for tt in range(0,3):
  for i in kk:
   df_roster_dummy=pd.json_normalize(i)
   df_roster_dummy['pos']=pos
-  df_roster= df_roster.append(df_roster_dummy)   
+  pd.concat([df_roster, df_roster_dummy])    
 df_roster['namo']= df_roster['firstName']+ ' ' + df_roster['lastName'] + ' - ' + df_roster['pos']
 st.dataframe(df_roster)
 
