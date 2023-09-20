@@ -85,9 +85,9 @@ try:
  
  box2=df_sezon['text'].values.tolist()
  test=box2[0]
- test
+ 
  linko_results= 'https://www.euroleaguebasketball.net'+ df_parca + '?season='+ str(box2[0])	
- linko_results 
+ 
  #1
  #klüp bilgilerini al 
  #linko='https://www.euroleaguebasketball.net/euroleague/teams/anadolu-efes-istanbul/roster/ist/?season=2022-23'
@@ -118,7 +118,7 @@ try:
  df_roster['namo']= df_roster['firstName']+ ' ' + df_roster['lastName'] + ' - ' + df_roster['pos']
  
  box3= df_roster['namo'].values.tolist()
- 
+ box3
  with col1:
   option3 = st.selectbox(
      'Select the player',
