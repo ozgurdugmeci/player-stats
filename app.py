@@ -85,7 +85,7 @@ try:
  
  box2=df_sezon['text'].values.tolist()
  test=box2[0]
- 
+ test
  linko_results= 'https://www.euroleaguebasketball.net'+ df_parca + '?season='+ str(box2[0])	
   
  #1
