@@ -105,7 +105,7 @@ try:
  site_json=json.loads(soup.string)
  #liste uzunluğu 5
  #son 2 liste numarası teknik ekip
- 
+ site_json['props']['pageProps']['roster'][tt]['players']
  for tt in range(0,3): 
  
   kk=site_json['props']['pageProps']['roster'][tt]['players']
@@ -118,8 +118,7 @@ try:
  df_roster['namo']= df_roster['firstName']+ ' ' + df_roster['lastName'] + ' - ' + df_roster['pos']
  
  box3= df_roster['namo'].values.tolist()
- ss=len(box3)
- ss
+ 
  with col1:
   option3 = st.selectbox(
      'Select the player',
