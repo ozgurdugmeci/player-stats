@@ -410,7 +410,7 @@ try:
  st.dataframe(df_games, 800, 3000)
   
 except:
-  'New season has not started yet.'
+  'Player has no stats.'
   #'An error occured. Check internet connecion and refresh the link.' 
  
  
